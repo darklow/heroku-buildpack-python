@@ -1,5 +1,7 @@
+#!/usr/bin/env bash
+
 # For Cairo SVG and lxml
 sudo apt-get update && apt-get install -y \
      python-dev libxml2-dev libxslt1-dev \
-     libffi-dev libssl-dev python-cairo libffi6
+     libffi-dev libssl-dev python-cairo libffi6 \
    --no-install-recommends
